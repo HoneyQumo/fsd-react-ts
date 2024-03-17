@@ -4,14 +4,14 @@ import { Link, LinkProps } from 'react-router-dom'
 import cls from './KitLink.module.scss'
 
 
-export enum AppLinkThemeEnum {
+export enum KitLinkThemeEnum {
 	PRIMARY = 'primary',
 	SECONDARY = 'secondary'
 }
 
 interface IKitLinkProps extends LinkProps {
 	className?: string
-	theme?: AppLinkThemeEnum
+	theme?: KitLinkThemeEnum
 }
 
 export const KitLink: FC<IKitLinkProps> = (props) => {
@@ -19,7 +19,7 @@ export const KitLink: FC<IKitLinkProps> = (props) => {
 		to,
 		className,
 		children,
-		theme = AppLinkThemeEnum.PRIMARY,
+		theme = KitLinkThemeEnum.PRIMARY,
 		...otherProps
 	} = props
 
