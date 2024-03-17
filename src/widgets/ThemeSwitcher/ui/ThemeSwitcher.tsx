@@ -1,11 +1,11 @@
+import cls from './ThemeSwitcher.module.scss'
 import { FC } from 'react'
 import { classNames } from 'shared/lib'
 import { useTheme } from 'shared/hooks'
 import { ThemeEnum } from 'shared/config'
-import cls from './ThemeSwitcher.module.scss'
+import { KitButton, KitButtonThemeEnum } from 'shared/ui'
 import THEME_LIGHT from 'shared/assets/icons/theme-light.svg'
 import THEME_DARK from 'shared/assets/icons/theme-dark.svg'
-import { KitButton, KitButtonThemeEnum } from 'shared/ui'
 
 
 interface IThemeSwitcherProps {
