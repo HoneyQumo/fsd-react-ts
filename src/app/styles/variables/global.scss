@@ -1,5 +1,5 @@
 :root {
-	--font-family-default: Consolas, 'Times New Roamn', Serif ;
+	--font-family-default: Consolas, 'Times New Roamn', Serif;
 
 	--font-size-m: 16px;
 	--line-height-m: calc(var(--font-size-m) + 8px);
@@ -8,4 +8,7 @@
 	--font-size-lg: 24px;
 	--line-height-lg: calc(var(--font-size-lg) + 8px);
 	--font-lg: var(--font-size-lg) / var(--line-height-lg) var(--font-family-default);
+
+
+	--navbar-height: 50px;
 }

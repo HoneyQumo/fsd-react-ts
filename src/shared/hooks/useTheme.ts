@@ -1,4 +1,4 @@
-import { LOCAL_STORAGE_THEME_KEY, ThemeContext, ThemeEnum } from './ThemeContext'
+import { LOCAL_STORAGE_THEME_KEY, ThemeContext, ThemeEnum } from '../config/theme/ThemeContext'
 import { useContext } from 'react'
 
 

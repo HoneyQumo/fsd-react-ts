@@ -1,0 +1,1 @@
+export { MainPageLazy } from 'pages/MainPage/ui/MainPage.lazy'
